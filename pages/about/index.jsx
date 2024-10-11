@@ -7,14 +7,24 @@ import {
   FaHtml5,
   FaJs,
   FaReact,
+  FaLinux,
   FaWordpress,
+  FaJenkins,
 } from "react-icons/fa";
 import {
   SiAdobephotoshop,
   SiAdobexd,
   SiFramer,
+  SiAnsible,
   SiNextdotjs,
+  SiKubernetes,
+  SiWireshark,
+  SiOwasp,
+  SiMetasploit,
+  Si1Password,
 } from "react-icons/si";
+import { GrNetwork, GrVulnerability } from "react-icons/gr";
+import { SiSplunk } from "react-icons/si";
 
 import Avatar from "../../components/Avatar";
 import Circles from "../../components/Circles";
@@ -41,35 +51,49 @@ export const aboutData = [
         title: "UI/UX Design",
         icons: [FaFigma, SiAdobexd, SiAdobephotoshop],
       },
+      {
+        title: "Devops",
+        icons: [SiKubernetes, SiAnsible, FaLinux, FaJenkins, ],
+      },
+      {
+        title: "CyberSecurity",
+        icons: [SiWireshark, SiOwasp, FaLinux, SiSplunk,GrVulnerability,GrNetwork,Si1Password],
+      },
     ],
   },
   {
     title: "awards",
     info: [
       {
-        title: "Webby Awards - Honoree",
-        stage: "2011 - 2012",
+        title: "Student Ambassador",
+        stage: "2024",
       },
-      {
-        title: "Adobe Design Achievement Awards - Finalist",
-        stage: "2009 - 2010",
-      },
+      
     ],
   },
   {
     title: "experience",
     info: [
+      
       {
-        title: "UX/UI Designer - XYZ Company",
-        stage: "2012 - 2023",
+        title: "Technical Support Head - Psych Station",
+        stage: "2023 - present",
       },
       {
-        title: "Web Developer - ABC Agency",
-        stage: "2010 - 2012",
-      },
-      {
-        title: "Intern - DEF Corporation",
+        title: "Intern - Spark Foundation",
         stage: "2008 - 2010",
+      },
+      {
+        title: "Youth Ambassador - Youth Media Network Pakistan",
+        stage: "2024",
+      },
+      {
+        title: "Event Manager - Confiniti-NCBA&E Main Campus Lahore",
+        stage: "2024 - present",
+      },
+      {
+        title: "Student Ambassadorr - LetsUpgrade",
+        stage: "2024 - Present",
       },
     ],
   },
@@ -77,16 +101,40 @@ export const aboutData = [
     title: "credentials",
     info: [
       {
-        title: "Web Development - ABC University, LA, CA",
-        stage: "2011",
+        title: "Cyber Security -Infosys",
+        stage: "2024",
       },
       {
-        title: "Computer Science Diploma - AV Technical Institute",
-        stage: "2009",
+        title: "Introduction to Android App Pentesting. - Infosec",
+        stage: "2024",
       },
       {
-        title: "Certified Graphic Designer - ABC Institute, Los Angeles, CA",
-        stage: "2006",
+        title: "Introduction to Web Application Pentesting. - Infosec",
+        stage: "2024",
+      },
+      {
+        title: "Social Engineering - Infosec",
+        stage: "2024",
+      },
+      {
+        title: "How to Simplify Docker using DevOps - Alison ",
+        stage: "2024",
+      },
+      {
+        title: "Certified Ethical Hacker (CEH) - Infosec",
+        stage: "2024",
+      },
+      {
+        title: "Microsoft Azure for Data Engineering - Microsoft",
+        stage: "2024",
+      },
+      {
+        title: "AWs Threat Detection,Logging and Monitoring - AWS",
+        stage: "2024",
+      },
+      {
+        title: "Introduction to DevOps - IBM",
+        stage: "2024",
       },
     ],
   },
@@ -120,8 +168,7 @@ const About = () => {
             exit="hidden"
             className="h2"
           >
-            Captivating <span className="text-accent">stories</span> birth
-            magnificent designs.
+            Unbreakable <span className="text-accent">defenses </span> are forged by mastering the unseen threats.
           </motion.h2>
           <motion.p
             variants={fadeIn("right", 0.4)}
@@ -129,9 +176,7 @@ const About = () => {
             animate="show"
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            10 years ago, I begin freelancing as a developer. Since then, I've
-            done remote work for agencies, consulted for startups, and
-            collabrated on digital products for business and consumer use.
+            I have 1 year of experience as a DevOps engineer, where I optimized deployment pipelines, automated infrastructure, and enhanced system performance. Additionally, with 4 months as a cybersecurity analyst, I conducted in-depth vulnerability assessments and penetration testing to secure web applications and infrastructure. My expertise lies in building efficient, secure systems that align with business needs.
           </motion.p>
 
           {/* counters */}
@@ -145,27 +190,19 @@ const About = () => {
               {/* experience */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={10} duration={5} />
+                  <CountUp start={0} end={1} duration={5} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Years of experience.
                 </div>
               </div>
 
-              {/* clients */}
-              <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
-                <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={250} duration={5} />
-                </div>
-                <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                  Satisfied clients.
-                </div>
-              </div>
+              
 
               {/* projects */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={650} duration={5} />
+                  <CountUp start={0} end={10} duration={5} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Finished projects.
@@ -175,7 +212,7 @@ const About = () => {
               {/* awards */}
               <div className="relative flex-1">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={8} duration={5} />
+                  <CountUp start={0} end={3} duration={5} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Winning awards.

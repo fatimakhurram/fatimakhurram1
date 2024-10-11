@@ -10,24 +10,24 @@ import "swiper/css/pagination";
 const testimonialData = [
   {
     image: "/t-avt-1.png",
-    name: "Anne Smith",
-    position: "Customer",
+    name: "Muhammad Usama Hameed",
+    position: "",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "I highly recommend Fatima for any DevOps role. Her strong expertise in automation, cloud infrastructure, and CI/CD pipelines consistently delivers efficient and scalable solutions. She is a dedicated and reliable professional with excellent problem-solving skills.",
   },
   {
     image: "/t-avt-2.png",
-    name: "Jane Doe",
-    position: "Customer",
+    name: "Umer Mushtaq",
+    position: "",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "I’ve had the pleasure of working closely with Fatima Khurram at Psych Station, where she has played an instrumental role as our Tech Support Head. From the very beginning, Fatima has demonstrated exceptional technical expertise and a proactive approach to problem-solving, making her a vital asset to our team.",
   },
   {
     image: "/t-avt-3.png",
-    name: "Jhon Doe",
-    position: "Customer",
+    name: "Muhammad Faran Tahir",
+    position: "",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "I had the pleasure of mentoring and working with Fatima on several projects. She is one of the sharpest minds in Cloud and DevOps that I’ve had the opportunity to collaborate with. Always eager to take on new challenges, her proactive approach makes her exceptionally competent. She would be an invaluable asset to any team.",
   },
 ];
 

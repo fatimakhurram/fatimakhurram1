@@ -29,8 +29,7 @@ const Work = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-              tempora eligendi, quisquam tempore sint reiciendis.
+              With a strong foundation in both DevOps and cybersecurity, I have contributed to streamlining infrastructure management, enhancing security protocols, and ensuring system reliability. As a DevOps intern at Corvit System, I specialized in automating CI/CD pipelines, improving deployment processes, and integrating cloud-based solutions. My role extended to cybersecurity, where I performed Vulnerability Assessment and Penetration Testing (VAPT) on websites using OWASP ZAP, identifying and mitigating security threats.
             </motion.p>
           </div>
 

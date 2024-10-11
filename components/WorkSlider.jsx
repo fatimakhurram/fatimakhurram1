@@ -14,22 +14,22 @@ const workSlides = {
       images: [
         {
           title: "title",
-          path: "/thumb1.jpg",
+          path: "/th1.jpg",
           link: "http://example.com",
         },
         {
           title: "title",
-          path: "/thumb2.jpg",
+          path: "/th3.jpeg",
           link: "http://example.com",
         },
         {
           title: "title",
-          path: "/thumb3.jpg",
+          path: "/th4.png",
           link: "http://example.com",
         },
         {
           title: "title",
-          path: "/thumb4.jpg",
+          path: "/th5.jpeg",
           link: "http://example.com",
         },
       ],
@@ -38,22 +38,22 @@ const workSlides = {
       images: [
         {
           title: "title",
-          path: "/thumb4.jpg",
+          path: "/th6.png",
           link: "http://example.com",
         },
         {
           title: "title",
-          path: "/thumb1.jpg",
+          path: "/th7.jpeg",
           link: "http://example.com",
         },
         {
           title: "title",
-          path: "/thumb2.jpg",
+          path: "/th8.png",
           link: "http://example.com",
         },
         {
           title: "title",
-          path: "/thumb3.jpg",
+          path: "/th9.jpeg",
           link: "http://example.com",
         },
       ],

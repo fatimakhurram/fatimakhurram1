@@ -16,28 +16,23 @@ import "swiper/css/pagination";
 const serviceData = [
   {
     Icon: RxCrop,
-    title: "Branding",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "CyberSecurity",
+    description: "I offer comprehensive vulnerability assessments and penetration testing to safeguard systems against cyber threats.",
   },
   {
     Icon: RxPencil2,
-    title: "Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Devops",
+    description: "I streamline deployment processes and automate CI/CD pipelines to improve system efficiency and scalability.",
   },
   {
     Icon: RxDesktop,
     title: "Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "I create high-performance web applications using modern technologies like React, Node.js, and the MERN stack.",
   },
   {
     Icon: RxReader,
-    title: "Copywriting",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
-    Icon: RxRocket,
-    title: "SEO",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Marketing",
+    description: "I design and implement data-driven digital marketing strategies to enhance brand visibility and engagement.",
   },
 ];
 

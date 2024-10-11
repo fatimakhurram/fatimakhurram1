@@ -31,8 +31,7 @@ const Services = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-              tempora eligendi, quisquam tempore sint reiciendis.
+              I provide expert DevOps and cybersecurity services, specializing in automating CI/CD pipelines, optimizing cloud infrastructure, and enhancing security through Vulnerability Assessment and Penetration Testing (VAPT). My goal is to streamline operations while ensuring robust security for systems and applications.
             </motion.p>
           </div>
 

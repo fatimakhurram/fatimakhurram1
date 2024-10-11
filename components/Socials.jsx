@@ -3,42 +3,33 @@ import Link from "next/link";
 import {
   RiYoutubeLine,
   RiInstagramLine,
-  RiFacebookLine,
+  RiLinkedinLine,
   RiDribbbleLine,
   RiGithubLine,
   RiPinterestLine,
+  RiMailSendLine,
 } from "react-icons/ri";
 
 export const socialData = [
   {
-    name: "YouTube",
-    link: "https://youtube.com",
+    name: "Github",
+    link: "https://github.com/fatimakhurram",
+    Icon: RiGithubLine,
+  },
+  {
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/in/fatima-khurram-105192299/",
+    Icon: RiLinkedinLine,
+  },
+  {
+    name: "Youtube",
+    link: "",
     Icon: RiYoutubeLine,
   },
   {
-    name: "Instagram",
-    link: "https://instagram.com",
-    Icon: RiInstagramLine,
-  },
-  {
-    name: "Facebook",
-    link: "https://facebook.com",
-    Icon: RiFacebookLine,
-  },
-  {
-    name: "Dribbble",
-    link: "https://dribbble.com",
-    Icon: RiDribbbleLine,
-  },
-  {
-    name: "Pinterest",
-    link: "https://pinterest.com",
-    Icon: RiPinterestLine,
-  },
-  {
-    name: "Github",
-    link: "https://github.com/sanidhyy/modern-portfolio",
-    Icon: RiGithubLine,
+    name: "Email",
+    link: "khuramfatima201@gmail.com",
+    Icon: RiMailSendLine,
   },
 ];
 

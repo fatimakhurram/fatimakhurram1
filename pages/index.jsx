@@ -20,8 +20,8 @@ const Home = () => {
             exit="hidden"
             className="h1"
           >
-            Transforming Ideas <br /> Into{" "}
-            <span className="text-accent">Digital Reality</span>
+            Fatima Khurram <br /> a{" "}
+            <span className="text-accent">Cybersecurity enthusiast</span>
           </motion.h1>
 
           {/* subtitle */}
@@ -32,10 +32,7 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate,
-            exercitationem harum, quia nulla temporibus deleniti libero veniam
-            vero beatae numquam ducimus illum ab similique ipsam tempore fugit
-            quod laudantium debitis.
+            I am a passionate cybersecurity enthusiast with hands-on experience in identifying vulnerabilities and implementing security solutions. With a solid foundation in DevOps, I bring a unique perspective in building secure, scalable, and efficient systems. My strengths lie in problem-solving, attention to detail, and a commitment to staying updated with the latest in technology. My experience in both cybersecurity and DevOps allows me to deliver robust solutions, ensuring security is integrated at every stage of the development lifecycle.
           </motion.p>
 
           {/* btn */}
